@@ -139,3 +139,19 @@ main{
     font-size: 16px;
     color: #0A3871;
 }
+
+.contenedor-texto-convertido {
+    margin: 20px;
+}
+
+.contenedor-texto-convertido .texto-convertido{
+    color: #495057;
+    font-size: 24px;
+    position: relative;
+    top: 1%;
+    left: 0%;
+    width: 100%;
+    word-wrap: break-word;
+    padding: 0%;
+    margin: 0%;
+}
