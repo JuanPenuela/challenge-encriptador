@@ -142,6 +142,7 @@ main{
 
 .contenedor-texto-convertido {
     margin: 20px;
+    word-wrap: break-word;
 }
 
 .contenedor-texto-convertido .texto-convertido{
@@ -151,7 +152,7 @@ main{
     top: 1%;
     left: 0%;
     width: 100%;
-    word-wrap: break-word;
+    overflow-wrap: anywhere;
     padding: 0%;
     margin: 0%;
 }
