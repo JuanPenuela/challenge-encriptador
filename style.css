@@ -1,0 +1,141 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F3F5FC;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 8%;
+    padding: 10px 0 0 0;
+
+}
+
+
+main{
+    height: 90%;
+}
+
+.campotexto{
+    color: #0A3871;
+    font-size: 32px;
+    background-color: #F3F5FC;
+    border: none;
+}
+
+.campotexto::placeholder{
+    color: #0A3871;
+}
+
+.campotexto:focus, .campotexto:active{
+    border: none;
+    outline: none;
+}
+
+.terminos{
+    color: #495057;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.campotexto{
+    position: absolute;
+    width: 40%;
+    height: 55%;
+    left: 15%;
+    top: 20%;
+}
+
+.alerta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    gap: 4px;
+    width: 40%;
+    height: 10%;
+    left: 15%;
+    top: 78%;
+}
+
+.contenedor-botones{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 40%;
+    height: 10%;
+    left: 15%;
+    top: 85%;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background: white;
+    width: 25%;
+    height: 80%;
+    top: 15%;
+    left: 60%;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.texto-seccion2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    text-align: center;
+}
+
+.imagen-inicial{
+    position: absolute;
+    top: 20%;
+}
+
+.texto-mensaje{
+    color: #343A40;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.mensaje-instruccion{
+    color: #495057;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.boton-encriptar{
+    border-radius: 24px;
+    background: #0A3871;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    font-size: 16px;
+    color: white;
+}
+
+.boton-desencriptar{
+    border-radius: 24px;
+    background: #D8DFE8;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    font-size: 16px;
+    color: #0A3871;
+}
